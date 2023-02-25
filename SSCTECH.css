@@ -1,0 +1,18 @@
+h1{
+    background-color: black; 
+    text-align: center;
+    color: white;
+   }
+img{
+    border-radius: 40px;
+    border: 10px solid #ddd;
+    padding: 5px;
+    width: 500px;
+}
+h2{
+    font-size: xx-large;
+    color: rgb(131, 70, 16);
+}
+body{
+    background: linear-gradient(-220deg,rgb(141, 17, 224),blue);
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="./Eligible.css" rel="stylesheet">
+	<title>Eligibility Checker</title>
+</head>
+<body>
+	<h1>Eligibility Checker</h1>
+	<form>
+		<label for="age">Age:</label>
+		<input type="number" id="age" name="age"><br><br>
+
+		<label for="height">Height (in feet):</label>
+		<input type="number" id="height" name="height"><br><br>
+
+		<label for="weight">Weight (in pounds):</label>
+		<input type="number" id="weight" name="weight"><br><br>
+
+		<label for="education">Education:</label>
+		<select id="education" name="education">
+			<option value="secondary">Secondary School</option>
+			<option value="higher_secondary">Higher Secondary School</option>
+			<option value="undergraduate">Undergraduate</option>
+			<option value="graduate">Graduate</option>
+		</select><br><br>
+
+		<label for="medical_condition">Medical Condition:</label>
+		<textarea id="medical_condition" name="medical_condition"></textarea><br><br>
+
+		<input type="button" value="Check Eligibility" onclick="checkEligibility()">
+	</form>
+
+	<p id="result"></p>
+
+	<script>
+		function checkEligibility() {
+			var age = document.getElementById("age").value;
+			var height = document.getElementById("height").value;
+			var weight = document.getElementById("weight").value;
+			var education = document.getElementById("education").value;
+			var medical_condition = document.getElementById("medical_condition").value;
+
+			if (age >= 19 && age <= 24 && height > 5.6 && weight == (height * 10 - 100) * 0.453592 && education != "secondary") {
+				document.getElementById("result").innerHTML = "You are eligible!";
+			} else {
+				document.getElementById("result").innerHTML = "You are not eligible!";
+			}
+		}
+	</script>
+</body>
+</html>

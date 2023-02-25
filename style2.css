@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(253, 143, 103);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .hero {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .hero__image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero__image {
+    width: 200px;
+    height: auto;
+    margin: 0 20px;
+  }
+  
+  .hero__heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
+  .about, .eligibility, .selection {
+    padding: 50px;
+  }
+  
+  .about h3, .eligibility h3, .selection h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  
+  .about p, .eligibility li, .selection p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .eligibility li {
+    margin-left: 30px;
+    list-style: disc;
+  }
+  
+  hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 30px 0;
+  }
+  

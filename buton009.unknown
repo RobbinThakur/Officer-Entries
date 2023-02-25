@@ -1,0 +1,9 @@
+<!-- Create a button named "Check Eligibility" -->
+<button onclick="redirectToInterview()">MOCk INTERVIEW</button>
+
+<!-- JavaScript function to redirect to the "eligibility" webpage -->
+<script>
+function redirectToInterview() {
+  window.location.href = "Interview.html";
+}
+</script>

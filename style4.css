@@ -1,0 +1,80 @@
+/* Global Styles */
+body {
+    background-color: linear-gradient(0deg,rgb(253,143,103),rgb(212,99,163));
+  
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Main Content Styles */
+.main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero__image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.hero__image {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    margin: 0 10px;
+}
+
+.hero__heading {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about, .eligibility, .selection {
+    margin-bottom: 20px;
+}
+
+.about h3, .eligibility h3, .selection h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.eligibility li {
+    margin-bottom: 5px;
+}
+
+.selection ol {
+    counter-reset: item;
+    margin-left: 20px;
+}
+
+.selection li {
+    counter-increment: item;
+    margin-bottom: 5px;
+}
+
+.selection li:before {
+    content: counter(item) ".";
+    font-weight: bold;
+    margin-right: 5px;
+}

@@ -1,0 +1,74 @@
+/* CSS Stylesheet */
+body {
+  background: linear-gradient(0deg, rgb(253, 143, 103), rgb(212,99,163));
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  header {
+    background: linear-gradient(-220deg,rgb(142, 19, 195),blue);
+    padding: 10px;
+    text-align: center;
+    color: black;
+  }
+  
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .hero__image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .hero__image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 10px;
+  }
+  
+  .hero__heading {
+    text-align: center;
+  }
+  
+  .about h3,
+  .eligibility h3,
+  .selection h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about p,
+  .eligibility ul,
+  .selection p {
+    margin-bottom: 20px;
+  }
+  
+  .eligibility li {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+.hero__image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__image {
+    margin: 10px;
+}
